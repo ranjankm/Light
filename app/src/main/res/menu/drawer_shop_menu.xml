@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="none">
+        <item
+            android:id="@+id/nav_shop_profile"
+            android:icon="@drawable/profile"
+            android:title="Shop Profile" />
+
+        <item
+            android:id="@+id/nav_change_password"
+            android:icon="@drawable/change_password"
+            android:title="Change Password" />
+
+        <item
+            android:id="@+id/nav_change_timings"
+            android:icon="@drawable/change_timings"
+            android:title="Change Timings" />
+
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/settings"
+            android:title="Settings"/>
+
+        <item
+            android:id="@+id/nav_help_support"
+            android:icon="@drawable/help_and_support"
+            android:title="Help and Support"/>
+
+        <item
+            android:id="@+id/nav_afv_plans"
+            android:icon="@drawable/adv_plans"
+            android:title="Advertisement Plans" />
+
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/aboutus"
+            android:title="About"/>
+
+        <item
+            android:id="@+id/nav_sign_out"
+            android:icon="@drawable/sign_out"
+            android:title="Sign Out" />
+    </group>
+</menu>

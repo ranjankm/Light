@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimaryDark">#2a3034</color>
+    <color name="colorPrimary">#343b41</color>
+    <color name="colorAccent">#f2403b</color>
+    <color name="colorBlack">#000</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorGrey">#ebebec</color>
+    <color name="temp">#6be0e0e0</color>
+
+    <color name="switchOnThumb">#6fde1f</color>
+    <color name="switchOffThumb">#e61e1e</color>
+    <color name="switchOnTrack">#aa6fde1f</color>
+    <color name="switchOffTrack">#aae61e1e</color>
+
+    <color name="adv_deals_bg">#8dd14702</color>
+    <color name="adv_sales_bg">#8dd50000</color>
+    <color name="adv_new_bg">#8d039be5</color>
+</resources>

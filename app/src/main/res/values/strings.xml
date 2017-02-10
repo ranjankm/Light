@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Light</string>
+
+    <!--Registration Form-->
+    <string name="hint_city">City</string>
+    <string name="hint_name">Name</string>
+    <string name="hint_email">Email</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+
+    <string-array name="adv_form_categories">
+        <item>Best deals</item>
+        <item>Discounts and Sales</item>
+        <item>New in the market</item>
+    </string-array>
+
+    <string-array name="categories">
+        <item>Garments</item>
+        <item>General Stores</item>
+        <item>Electronics</item>
+        <item>Medicines</item>
+        <item>Hardware</item>
+        <item>Furniture</item>
+        <item>Kitchen/Tools</item>
+        <item>Automobiles</item>
+        <item>Personal Care</item>
+        <item>Grocery</item>
+        <item>Stationary</item>
+        <item>Footwears</item>
+        <item>Restaurants</item>
+    </string-array>
+</resources>

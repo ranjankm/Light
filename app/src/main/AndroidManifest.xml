@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.rk.reachout">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission-sdk-23 android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission-sdk-23 android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission-sdk-23 android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission-sdk-23 android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MobileVerify" />
+        <activity android:name=".UserRegistration" />
+        <activity
+            android:name=".UserHome"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ShopkeeperHome"
+            android:parentActivityName=".UserHome" />
+        <activity
+            android:name=".CategoryView"
+            android:parentActivityName=".UserHome" />
+        <activity
+            android:name=".Search"
+            android:parentActivityName=".CategoryView" />
+        <activity
+            android:name=".ShopLogin"
+            android:parentActivityName=".UserHome" />
+        <activity
+            android:name=".FeedsView"
+            android:parentActivityName=".ShopkeeperHome" />
+        <activity
+            android:name=".UserProfile"
+            android:parentActivityName=".UserHome" />
+        <activity
+            android:name=".ShopkeeperView"
+            android:parentActivityName=".CategoryView" />
+        <activity
+            android:name=".ShopProfile"
+            android:parentActivityName=".ShopkeeperHome" />
+        <activity
+            android:name=".ShopRegistration"
+            android:parentActivityName=".UserHome" />
+        <activity
+            android:name=".ChangePassword"
+            android:parentActivityName=".ShopkeeperHome" />
+        <activity
+            android:name=".ChangeTimings"
+            android:parentActivityName=".ShopkeeperHome" />
+
+        <activity
+            android:name=".AdvForms"
+            android:parentActivityName=".AdvView" />
+
+        <activity
+            android:name=".AdvView"
+            android:parentActivityName=".ShopkeeperHome" />
+
+        <activity
+            android:name=".HomeSearchView"
+            android:parentActivityName=".UserHome" />
+
+        <activity
+            android:name=".HomeAdvView"
+            android:parentActivityName=".UserHome" />
+
+        <activity
+            android:name=".QRScanner"
+            android:parentActivityName=".UserHome" />
+    </application>
+
+</manifest>
